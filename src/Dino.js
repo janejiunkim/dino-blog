@@ -11,9 +11,9 @@ function Dino(props) {
             <h1>{props.title}</h1>
             <h3>by {props.author}</h3>
             <h3>{props.body}</h3>
-            <p>{allComments}</p>
 
             <h2>Comments:</h2>
+            <p>{allComments}</p>
             <h3>{props.comments.toString[0]}</h3>
         </div>
     );
